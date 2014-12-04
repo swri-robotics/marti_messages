@@ -1,9 +1,0 @@
-Header header
-
-WheelEncoderSet encoders
-
----
-
-Header header
-
-geometry_msgs/TwistWithCovarianceStamped twist

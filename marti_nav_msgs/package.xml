@@ -1,0 +1,21 @@
+<package>
+  <name>marti_nav_msgs</name>
+  <version>0.0.1</version>
+  <description>
+
+     marti_nav_msgs
+
+  </description>
+  <author>Marc Alban</author>
+  <maintainer email="malban@swri.org">Marc Alban</maintainer>
+  <license>BSD</license>
+  <url>https://github.com/swri-robotics/marti_messages</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>message_generation</build_depend>
+  <build_depend>build_tools</build_depend>
+  
+  <run_depend>message_runtime</run_depend>
+  
+</package>
