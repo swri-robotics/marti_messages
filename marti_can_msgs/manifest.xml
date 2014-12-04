@@ -1,0 +1,15 @@
+<package>
+  <description brief="marti_can_msgs">
+
+     marti_can_msgs
+
+  </description>
+  <author>Elliot Johnson</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/marti_can_msgs</url>
+
+  <depend package="build_tools"/>
+</package>
+
+

@@ -1,0 +1,15 @@
+<package>
+  <description brief="marti_visualization_msgs">
+
+     marti_visualization_msgs
+
+  </description>
+  <author>malban</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/marti_visualization_msgs</url>
+
+  <depend package="geometry_msgs" />
+  <depend package="sensor_msgs" />
+
+</package>
