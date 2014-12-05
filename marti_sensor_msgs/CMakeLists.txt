@@ -7,8 +7,8 @@ find_package(catkin REQUIRED
   build_tools)
 
 add_message_files(FILES
-  DoiPortState.msg
-  DoiRealTimeData.msg
+  DioPortState.msg
+  DioRealTimeData.msg
   Exposure.msg
   Gyro.msg
   Velocity.msg

@@ -3,16 +3,17 @@ project(marti_can_msgs)
 
 find_package(catkin REQUIRED 
   message_generation
+  std_msgs
   build_tools)
 
 add_message_files(FILES
   CanFrame.msg
 )
 
-generate_messages()
+generate_messages(DEPENDENCIES std_msgs)
 
 catkin_package(
-  CATKIN_DEPENDS message_runtime
+  CATKIN_DEPENDS message_runtime std_msgs
 )
 
 execute_process(

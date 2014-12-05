@@ -8,7 +8,8 @@ find_package(catkin REQUIRED
   build_tools)
 
 add_message_files(FILES
-  PedestrianImageId.msg
+  TexturedMarker.msg
+  TexturedMarkerArray.msg
 )
 
 generate_messages(DEPENDENCIES

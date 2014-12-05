@@ -8,7 +8,7 @@ find_package(catkin REQUIRED
   build_tools)
 
 add_message_files(FILES
-  PedestrianImageId.msg
+  PedestrianImageID.msg
 )
 
 generate_messages(DEPENDENCIES
