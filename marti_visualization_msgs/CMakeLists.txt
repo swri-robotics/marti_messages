@@ -1,19 +1,31 @@
 cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+project(marti_visualization_msgs)
 
-# Set the build type.  Options are:
-#  Coverage       : w/ debug symbols, w/o optimization, w/ code-coverage
-#  Debug          : w/ debug symbols, w/o optimization
-#  Release        : w/o debug symbols, w/ optimization
-#  RelWithDebInfo : w/ debug symbols, w/ optimization
-#  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
-#set(ROS_BUILD_TYPE RelWithDebInfo)
+find_package(catkin REQUIRED 
+  message_generation
+  geometry_msgs
+  sensor_msgs
+  build_tools)
 
-rosbuild_init()
+add_message_files(FILES
+  TexturedMarker.msg
+  TexturedMarkerArray.msg
+)
 
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+generate_messages(DEPENDENCIES
+  geometry_msgs
+  sensor_msgs)
 
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+catkin_package(
+  CATKIN_DEPENDS 
+    message_runtime
+    geometry_msgs 
+    sensor_msgs
+)
 
-rosbuild_genmsg()
-rosbuild_gensrv()
+execute_process(
+  COMMAND rospack find build_tools
+  ERROR_VARIABLE __null
+  OUTPUT_VARIABLE build_tools_PACKAGE_PATH
+  OUTPUT_STRIP_TRAILING_WHITESPACE)
+include(${build_tools_PACKAGE_PATH}/scripts/build_common.cmake)
