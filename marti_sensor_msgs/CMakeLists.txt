@@ -7,6 +7,7 @@ find_package(catkin REQUIRED
   build_tools)
 
 add_message_files(FILES
+  Altitude.msg
   DioPortState.msg
   DioRealTimeData.msg
   Exposure.msg
