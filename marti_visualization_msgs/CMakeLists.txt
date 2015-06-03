@@ -4,8 +4,7 @@ project(marti_visualization_msgs)
 find_package(catkin REQUIRED 
   message_generation
   geometry_msgs
-  sensor_msgs
-  build_tools)
+  sensor_msgs)
 
 add_message_files(FILES
   TexturedMarker.msg
@@ -22,10 +21,3 @@ catkin_package(
     geometry_msgs 
     sensor_msgs
 )
-
-execute_process(
-  COMMAND rospack find build_tools
-  ERROR_VARIABLE __null
-  OUTPUT_VARIABLE build_tools_PACKAGE_PATH
-  OUTPUT_STRIP_TRAILING_WHITESPACE)
-include(${build_tools_PACKAGE_PATH}/scripts/build_common.cmake)

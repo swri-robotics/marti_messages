@@ -4,8 +4,7 @@ project(marti_perception_msgs)
 find_package(catkin REQUIRED 
   message_generation
   std_msgs
-  sensor_msgs
-  build_tools)
+  sensor_msgs)
 
 add_message_files(FILES
   PedestrianImageID.msg
@@ -21,10 +20,3 @@ catkin_package(
     std_msgs 
     sensor_msgs
 )
-
-execute_process(
-  COMMAND rospack find build_tools
-  ERROR_VARIABLE __null
-  OUTPUT_VARIABLE build_tools_PACKAGE_PATH
-  OUTPUT_STRIP_TRAILING_WHITESPACE)
-include(${build_tools_PACKAGE_PATH}/scripts/build_common.cmake)
