@@ -1,0 +1,17 @@
+<package>
+  <description brief="marti_common_msgs">
+
+     marti_common_msgs
+
+  </description>
+  <author>Marc Alban</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://github.com/swri-robotics/marti_messages</url>
+
+  <depend package="std_msgs" />
+
+  <depend package="build_tools"/>
+</package>
+
+
