@@ -7,7 +7,19 @@ find_package(catkin REQUIRED
 
 add_message_files(FILES
   BoolStamped.msg
+  DurationStamped.msg
+  Float32Stamped.msg
   Float64Stamped.msg
+  Int16Stamped.msg
+  Int32Stamped.msg
+  Int64Stamped.msg
+  Int8Stamped.msg
+  StringStamped.msg
+  TimeStamped.msg
+  UInt16Stamped.msg
+  UInt32Stamped.msg
+  UInt64Stamped.msg
+  UInt8Stamped.msg
 )
 
 generate_messages(DEPENDENCIES
