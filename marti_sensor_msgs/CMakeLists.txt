@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(marti_sensor_msgs)
 
-find_package(catkin REQUIRED 
+find_package(catkin REQUIRED COMPONENTS
   message_generation
   geometry_msgs)
 
