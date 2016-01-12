@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(FILES
   BoolStamped.msg
+  ByteArrayStamped.msg
   DurationStamped.msg
   Float32Stamped.msg
   Float64Stamped.msg
