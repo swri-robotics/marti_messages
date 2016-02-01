@@ -26,6 +26,13 @@ marti_sensor_msgs (64-bit) | [![Build Status](http://build.ros.org/buildStatus/i
 marti_visualization_msgs (32-bit) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Ibin_uS32__marti_visualization_msgs__ubuntu_saucy_i386__binary)](http://build.ros.org/job/Ibin_uS32__marti_visualization_msgs__ubuntu_saucy_i386__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Ibin_uT32__marti_visualization_msgs__ubuntu_trusty_i386__binary)](http://build.ros.org/job/Ibin_uT32__marti_visualization_msgs__ubuntu_trusty_i386__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uT32__marti_visualization_msgs__ubuntu_trusty_i386__binary)](http://build.ros.org/job/Jbin_uT32__marti_visualization_msgs__ubuntu_trusty_i386__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uU32__marti_visualization_msgs__ubuntu_utopic_i386__binary)](http://build.ros.org/job/Jbin_uU32__marti_visualization_msgs__ubuntu_utopic_i386__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uV32__marti_visualization_msgs__ubuntu_vivid_i386__binary)](http://build.ros.org/job/Jbin_uV32__marti_visualization_msgs__ubuntu_vivid_i386__binary/)
 marti_visualization_msgs (64-bit) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Ibin_uS64__marti_visualization_msgs__ubuntu_saucy_amd64__binary)](http://build.ros.org/job/Ibin_uS64__marti_visualization_msgs__ubuntu_saucy_amd64__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Ibin_uT64__marti_visualization_msgs__ubuntu_trusty_amd64__binary)](http://build.ros.org/job/Ibin_uT64__marti_visualization_msgs__ubuntu_trusty_amd64__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uT64__marti_visualization_msgs__ubuntu_trusty_amd64__binary)](http://build.ros.org/job/Jbin_uT64__marti_visualization_msgs__ubuntu_trusty_amd64__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uU64__marti_visualization_msgs__ubuntu_utopic_amd64__binary)](http://build.ros.org/job/Jbin_uU64__marti_visualization_msgs__ubuntu_utopic_amd64__binary/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uV64__marti_visualization_msgs__ubuntu_vivid_amd64__binary)](http://build.ros.org/job/Jbin_uV64__marti_visualization_msgs__ubuntu_vivid_amd64__binary/)
 
+Travis CI Build Status
+----------------------
+
+Indigo | Jade
+------ | ----
+[![Build Status](https://travis-ci.org/swri-robotics/marti_messages.svg?branch=indigo-devel)](https://travis-ci.org/swri-robotics/marti_messages) | [![Build Status](https://travis-ci.org/swri-robotics/marti_messages.svg?branch=jade-devel)](https://travis-ci.org/swri-robotics/marti_messages)
+
 Building From Source (ROS Indigo, Jade)
 ------------
 
