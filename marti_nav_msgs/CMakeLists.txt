@@ -1,20 +1,35 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(marti_nav_msgs)
 
-find_package(catkin REQUIRED COMPONENTS
+set(MSG_DEPS
+  geometry_msgs
+  marti_common_msgs
+  std_msgs
+)
+
+set(BUILD_DEPS
+  ${MSG_DEPS}
   message_generation
-  std_msgs)
+)
+
+set(RUNTIME_DEPS
+  ${MSG_DEPS}
+  message_runtime
+)
+
+find_package(catkin REQUIRED COMPONENTS ${BUILD_DEPS})
 
 add_message_files(FILES
   Command.msg
   LeadVehicle.msg
   PathPlanning.msg
+  Route.msg
+  RoutePoint.msg
+  RoutePosition.msg
   TeleopState.msg
   VehicleControl.msg
 )
 
-generate_messages(DEPENDENCIES std_msgs)
+generate_messages(DEPENDENCIES ${MSG_DEPS})
 
-catkin_package(
-  CATKIN_DEPENDS message_runtime std_msgs
-)
+catkin_package(CATKIN_DEPENDS ${RUNTIME_DEPS})
