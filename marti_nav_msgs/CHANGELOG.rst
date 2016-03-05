@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2016-03-04)
+------------------
 * Adds Route, RoutePoint, and RoutePosition messages
   Route and RoutePoint are very general messages to define a sequence of
   achievable poses for a vehicle along with arbitrary metadata about the
