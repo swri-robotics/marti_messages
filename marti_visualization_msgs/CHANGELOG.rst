@@ -2,6 +2,9 @@
 Changelog for package marti_visualization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.2 (2016-03-04)
 ------------------
 * Adds documentation to the textured marker message.

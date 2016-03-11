@@ -2,6 +2,11 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adds RouteSpeed message.
+* Contributors: Marc Alban
+
 0.0.2 (2016-03-04)
 ------------------
 * Adds Route, RoutePoint, and RoutePosition messages
