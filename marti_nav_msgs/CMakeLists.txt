@@ -31,6 +31,10 @@ add_message_files(FILES
   VehicleControl.msg
 )
 
+add_service_files(FILES
+  SaveRecordedRoute.srv
+)
+
 generate_messages(DEPENDENCIES ${MSG_DEPS})
 
 catkin_package(CATKIN_DEPENDS ${RUNTIME_DEPS})
