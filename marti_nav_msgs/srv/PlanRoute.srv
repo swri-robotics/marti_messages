@@ -1,0 +1,5 @@
+geographic_msgs/GeoPose start # If lat/lon/alt are 0, use the vehicle's current position
+geographic_msgs/GeoPose[] waypoints # A series of points the route must pass through
+---
+Header header
+marti_nav_msgs/RoutePoint[] route_points # Ordered list of points along the route
