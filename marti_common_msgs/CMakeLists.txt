@@ -15,6 +15,7 @@ add_message_files(FILES
   Int64Stamped.msg
   Int8Stamped.msg
   KeyValue.msg
+  KeyValueArray.msg
   StringStamped.msg
   TimeStamped.msg
   UInt16Stamped.msg
