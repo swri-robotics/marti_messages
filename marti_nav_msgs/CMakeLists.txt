@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(marti_nav_msgs)
 
 set(MSG_DEPS
+  geographic_msgs
   geometry_msgs
   marti_common_msgs
   std_msgs
@@ -35,6 +36,7 @@ add_message_files(FILES
 add_service_files(FILES
   GetRoute.srv
   GetRouteList.srv
+  PlanRoute.srv
   SaveRecordedRoute.srv
   SetRoute.srv
 )
