@@ -16,6 +16,7 @@
   <build_depend>message_generation</build_depend>
   <exec_depend>message_runtime</exec_depend>
 
+  <depend>geographic_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>marti_common_msgs</depend>
   <depend>std_msgs</depend>
