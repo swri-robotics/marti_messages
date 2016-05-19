@@ -1,5 +1,12 @@
-geographic_msgs/GeoPose start # If lat/lon/alt are 0, use the vehicle's current position
-geographic_msgs/GeoPose[] waypoints # A series of points the route must pass through
+Header header                  # the frame the request and response are
+                               # referenced in
+
+geometry_msgs/Pose[] waypoints # series of points the route should pass through
+bool plan_from_vehicle         # add the vehicle position as the first waypoint
+
 ---
-Header header
-marti_nav_msgs/RoutePoint[] route_points # Ordered list of points along the route
+
+Route  route     # planned route
+
+bool success     # indicate successful run of service
+string message   # informational, e.g. for error messages
