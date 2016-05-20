@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2016-05-20)
+------------------
 * Build PlanRoute service.
 * Add marti_nav_msgs/RouteSpeedArray message.
 * Adding a service for planning routes
