@@ -2,6 +2,17 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Build PlanRoute service.
+* Add marti_nav_msgs/RouteSpeedArray message.
+* Adding a service for planning routes
+  Resolves `#61 <https://github.com/swri-robotics/marti_messages/issues/61>`_
+* Adding a service to set the currently active route
+* Add services for getting routes.
+* Add service definition for saving a recorded route.
+* Contributors: Elliot Johnson, Marc Alban, P. J. Reed
+
 0.0.3 (2016-03-11)
 ------------------
 * Adds RouteSpeed message.
