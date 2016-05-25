@@ -23,6 +23,8 @@ find_package(catkin REQUIRED COMPONENTS ${BUILD_DEPS})
 add_message_files(FILES
   Command.msg
   LeadVehicle.msg
+  Obstacle.msg
+  ObstacleArray.msg
   PathPlanning.msg
   Route.msg
   RoutePoint.msg
