@@ -40,7 +40,9 @@ add_service_files(FILES
   GetRouteList.srv
   PlanRoute.srv
   SaveRecordedRoute.srv
+  SaveRoute.srv
   SetRoute.srv
+  UpdateRouteMetadata.srv
 )
 
 generate_messages(DEPENDENCIES ${MSG_DEPS})
