@@ -2,6 +2,23 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2016-08-14)
+------------------
+* Adds new services to save a route and to update a route's metadata:
+
+  - SaveRoute
+  
+    - Takes a list of route points and saves it
+    - If the route's GUID matches an existing route, it will be overwritten
+    
+  - UpdateRouteMetadata
+  
+    - Modifies an existing route
+    - Replaces the properties on specified points with new properties
+    
+* Adds Obstacle/ObstacleArray messages to marti_nav_msgs.
+* Contributors: Elliot Johnson, P. J. Reed
+
 0.0.4 (2016-05-20)
 ------------------
 * Build PlanRoute service.
