@@ -17,6 +17,7 @@ add_message_files(FILES
   Int8Stamped.msg
   KeyValue.msg
   KeyValueArray.msg
+  StringArrayStamped.msg
   StringStamped.msg
   TimeStamped.msg
   UInt16Stamped.msg
@@ -29,7 +30,7 @@ generate_messages(DEPENDENCIES
   std_msgs)
 
 catkin_package(
-  CATKIN_DEPENDS 
+  CATKIN_DEPENDS
     message_runtime
-    std_msgs 
+    std_msgs
 )
