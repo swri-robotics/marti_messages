@@ -5,9 +5,9 @@ uint8 UNKNOWN=255
 Header header  # Frame and timestamp
 uint16 id      # Id
 
-geometry_msgs/PoseWithCovariance pose      # Pose
-geometry_msgs/TwistWithCovariance velocity # Velocity 
-geometry_msgs/Vector3 linear_acceleration  # Acceleration
+geometry_msgs/PoseWithCovariance pose      # Pose in the header frame.
+geometry_msgs/TwistWithCovariance velocity # Velocity in the header frame.
+geometry_msgs/Vector3 linear_acceleration  # Acceleration in the header frame.
 float64[9] linear_acceleration_covariance  # Row major x, y z
 
 geometry_msgs/Point[] polygon
@@ -26,7 +26,7 @@ float32 classification_quality # Classification quality number [0,1]
 
 float32 existence_probability  # Existence probability [0,1]
 
-duration age_duration          # Age of the track
-duration prediction_duration   # Age of the prediction
+duration age_duration          # Age of the track since first detection.
+duration prediction_duration   # Age of the prediction since the active flag was last true.
 
-bool active                    # Active flag
+bool active                    # Active flag for if the objects is currently being detected.
