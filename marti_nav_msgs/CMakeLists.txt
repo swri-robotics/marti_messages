@@ -38,6 +38,7 @@ add_message_files(FILES
 )
 
 add_service_files(FILES
+  DeleteRoute.srv
   GetRoute.srv
   GetRouteList.srv
   PlanRoute.srv
