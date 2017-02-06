@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.7 (2017-02-06)
+------------------
 * Add service to delete routes
 * Add more detailed comments to TrackedObject.msg
 * Add messages for tracked objects.
