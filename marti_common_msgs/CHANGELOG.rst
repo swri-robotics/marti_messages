@@ -2,6 +2,9 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.6 (2016-10-23)
 ------------------
 * Add StringArrayStamped message.
