@@ -19,6 +19,7 @@
   <depend>geographic_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>marti_common_msgs</depend>
+  <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
 
 </package>
