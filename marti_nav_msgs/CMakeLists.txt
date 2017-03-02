@@ -5,6 +5,7 @@ set(MSG_DEPS
   geographic_msgs
   geometry_msgs
   marti_common_msgs
+  sensor_msgs
   std_msgs
 )
 
@@ -22,6 +23,7 @@ find_package(catkin REQUIRED COMPONENTS ${BUILD_DEPS})
 
 add_message_files(FILES
   Command.msg
+  GridMap.msg
   LeadVehicle.msg
   Obstacle.msg
   ObstacleArray.msg
