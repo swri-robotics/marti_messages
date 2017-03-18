@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2017-03-18)
+------------------
 * Add GridMap message.
 * Contributors: Marc Alban
 
