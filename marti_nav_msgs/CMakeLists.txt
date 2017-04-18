@@ -37,6 +37,7 @@ add_message_files(FILES
   TrackedObject.msg
   TrackedObjectArray.msg
   VehicleControl.msg
+  Wgs84Sample.msg
 )
 
 add_service_files(FILES

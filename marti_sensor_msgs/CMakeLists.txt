@@ -14,7 +14,6 @@ add_message_files(FILES
   Velocity.msg
   WheelEncoder.msg
   WheelEncoderSet.msg
-  Wgs84Sample.msg
 )
 
 add_service_files(FILES
