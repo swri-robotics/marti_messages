@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.9 (2017-05-08)
+------------------
 * Add Wgs84Sample message type. (`#82 <https://github.com/swri-robotics/marti_messages/issues/82>`_)
   Wgs84Sample is a new message type that contains a sensor measurement in WGS-84 (e.g. GPS sample)
   and the corresponding sensor location in relative coordinates (e.g. antenna position).
