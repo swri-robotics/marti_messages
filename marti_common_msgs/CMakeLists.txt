@@ -24,6 +24,7 @@ add_message_files(FILES
   UInt32Stamped.msg
   UInt64Stamped.msg
   UInt8Stamped.msg
+  HealthStatus.msg
 )
 
 generate_messages(DEPENDENCIES
