@@ -5,5 +5,5 @@ int8 ERROR=2      # Component has encountered a serious problem and cannot or wi
 
 Header header
 
-int32  status
+int8  status
 string message
