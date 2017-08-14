@@ -1,4 +1,4 @@
 Header header
 
 bool   healthy
-string reason
+string message
