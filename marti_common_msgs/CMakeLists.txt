@@ -11,6 +11,7 @@ add_message_files(FILES
   DurationStamped.msg
   Float32Stamped.msg
   Float64Stamped.msg
+  HealthStatus.msg
   Int16Stamped.msg
   Int32Stamped.msg
   Int64Stamped.msg
@@ -24,7 +25,6 @@ add_message_files(FILES
   UInt32Stamped.msg
   UInt64Stamped.msg
   UInt8Stamped.msg
-  HealthStatus.msg
 )
 
 generate_messages(DEPENDENCIES
