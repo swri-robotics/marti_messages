@@ -2,6 +2,11 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add HealthStatus message
+* Contributors: Matthew Bries
+
 0.0.9 (2017-05-08)
 ------------------
 

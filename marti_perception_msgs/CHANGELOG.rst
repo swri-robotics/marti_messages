@@ -2,6 +2,9 @@
 Changelog for package marti_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.9 (2017-05-08)
 ------------------
 

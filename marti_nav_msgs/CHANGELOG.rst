@@ -2,6 +2,9 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.9 (2017-05-08)
 ------------------
 * Add Wgs84Sample message type. (`#82 <https://github.com/swri-robotics/marti_messages/issues/82>`_)
