@@ -2,6 +2,9 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.2.0 (2017-08-29)
 ------------------
 * AddRouteOffset Message (`#86 <https://github.com/swri-robotics/marti_messages/issues/86>`_)
