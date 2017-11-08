@@ -2,6 +2,11 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add a Direction message to marti_sensor_msgs.
+* Contributors: Edward Venator
+
 0.3.0 (2017-09-28)
 ------------------
 
