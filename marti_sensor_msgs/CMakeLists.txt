@@ -9,6 +9,7 @@ add_message_files(FILES
   Altitude.msg
   DioPortState.msg
   DioRealTimeData.msg
+  Direction.msg
   Exposure.msg
   Gyro.msg
   Velocity.msg
