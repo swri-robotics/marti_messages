@@ -18,6 +18,7 @@ add_message_files(FILES
   Int8Stamped.msg
   KeyValue.msg
   KeyValueArray.msg
+  Matrix3x3Stamped.msg
   StringArrayStamped.msg
   StringStamped.msg
   TimeStamped.msg
