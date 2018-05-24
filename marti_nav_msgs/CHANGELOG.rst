@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.0 (2018-05-24)
+------------------
 * Include route id with route position for disambiguation.
 * Contributors: Marc Alban, P. J. Reed
 
