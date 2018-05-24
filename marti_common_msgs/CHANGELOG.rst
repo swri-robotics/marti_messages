@@ -2,6 +2,9 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.5.0 (2018-04-05)
 ------------------
 * Add Matrix3x3Stamped message (`#90 <https://github.com/swri-robotics/marti_messages/issues/90>`_)
