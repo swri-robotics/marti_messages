@@ -29,6 +29,7 @@ add_message_files(FILES
   ObstacleArray.msg
   PathPlanning.msg
   Route.msg
+  RouteArray.msg
   RouteOffset.msg
   RoutePoint.msg
   RoutePosition.msg
