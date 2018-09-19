@@ -19,6 +19,7 @@ add_message_files(FILES
   KeyValue.msg
   KeyValueArray.msg
   Matrix3x3Stamped.msg
+  ServiceHeader.msg
   StringArrayStamped.msg
   StringStamped.msg
   TimeStamped.msg
