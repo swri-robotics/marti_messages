@@ -2,6 +2,9 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.6.0 (2018-05-24)
 ------------------
 
