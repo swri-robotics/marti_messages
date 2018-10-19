@@ -2,6 +2,9 @@
 Changelog for package marti_can_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.7.0 (2018-10-09)
 ------------------
 * Update Maintainers
