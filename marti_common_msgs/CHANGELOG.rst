@@ -2,8 +2,8 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.0 (2018-10-19)
+------------------
 * Merge pull request `#96 <https://github.com/swri-robotics/marti_messages/issues/96>`_ from matt-attack/add-psuedo-service
 * Add ServiceHeader message
 * Contributors: Matthew Bries, P. J. Reed
