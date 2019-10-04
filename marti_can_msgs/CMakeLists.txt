@@ -1,16 +1,23 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.10)
 project(marti_can_msgs)
 
-find_package(catkin REQUIRED COMPONENTS
-  message_generation
-  std_msgs)
+set(CMAKE_CXX_STANDARD 14)
 
-add_message_files(FILES
-  CanFrame.msg
+set(MSG_DEPS std_msgs)
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
+
+set(MSG_FILES
+  msg/CanFrame.msg
 )
 
-generate_messages(DEPENDENCIES std_msgs)
-
-catkin_package(
-  CATKIN_DEPENDS message_runtime std_msgs
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${MSG_FILES}
+  DEPENDENCIES ${MSG_DEPS}
 )
+
+ament_export_dependencies(rosidl_default_runtime)
+ament_package()
+

@@ -3,7 +3,7 @@
 # When combined with an unsigned speed, this message can be used to determine
 # signed vehicle speed
 
-Header  header           # The time and location of the measurement.
+std_msgs/Header  header           # The time and location of the measurement.
                          # The x-axis in the sensor space is interpreted as the
                          # axis of linear motion.
 

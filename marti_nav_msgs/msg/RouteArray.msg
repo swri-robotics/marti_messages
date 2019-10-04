@@ -1,6 +1,6 @@
 # list of muliple routes, for instance to support multi-lane roads
 
-Header                         header
+std_msgs/Header                         header
 
 marti_nav_msgs/Route[]         routes
 

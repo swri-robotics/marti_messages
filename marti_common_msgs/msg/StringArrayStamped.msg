@@ -1,5 +1,5 @@
 # A generic message for publishing a list of strings.
 
-Header header
+std_msgs/Header header
 
 string[] strings

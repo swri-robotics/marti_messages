@@ -1,31 +1,32 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.10)
 project(marti_sensor_msgs)
 
-find_package(catkin REQUIRED COMPONENTS
-  message_generation
-  geometry_msgs)
+set(CMAKE_CXX_STANDARD 14)
 
-add_message_files(FILES
-  Altitude.msg
-  DioPortState.msg
-  DioRealTimeData.msg
-  Direction.msg
-  Exposure.msg
-  Gyro.msg
-  Velocity.msg
-  WheelEncoder.msg
-  WheelEncoderSet.msg
+set(MSG_DEPS geometry_msgs)
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+set(MSG_FILES
+  msg/Altitude.msg
+  msg/DioPortState.msg
+  msg/DioRealTimeData.msg
+  msg/Direction.msg
+  msg/Exposure.msg
+  msg/Gyro.msg
+  msg/Velocity.msg
+  msg/WheelEncoder.msg
+  msg/WheelEncoderSet.msg
+  srv/SetExposure.srv
 )
 
-add_service_files(FILES
-  SetExposure.srv
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${MSG_FILES}
+  DEPENDENCIES ${MSG_DEPS}
 )
 
-generate_messages(DEPENDENCIES
-  geometry_msgs)
+ament_export_dependencies(rosidl_default_runtime)
+ament_package()
 
-catkin_package(
-  CATKIN_DEPENDS 
-    message_runtime
-    geometry_msgs
-)

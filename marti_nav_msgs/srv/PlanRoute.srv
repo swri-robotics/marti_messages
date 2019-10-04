@@ -1,4 +1,4 @@
-Header header                  # the frame the request and response are
+std_msgs/Header header         # the frame the request and response are
                                # referenced in
 
 geometry_msgs/Pose[] waypoints # series of points the route should pass through
