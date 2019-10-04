@@ -2,6 +2,11 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Convert to ROS2 Dashing
+* Contributors: P. J. Reed
+
 0.8.0 (2018-10-19)
 ------------------
 

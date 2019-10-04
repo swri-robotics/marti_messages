@@ -2,6 +2,11 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Convert to ROS2 Dashing
+* Contributors: P. J. Reed
+
 0.8.0 (2018-10-19)
 ------------------
 * Merge pull request `#96 <https://github.com/swri-robotics/marti_messages/issues/96>`_ from matt-attack/add-psuedo-service
