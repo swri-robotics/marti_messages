@@ -2,8 +2,8 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2019-10-04)
+------------------
 * Convert to ROS2 Dashing
 * Contributors: P. J. Reed
 
