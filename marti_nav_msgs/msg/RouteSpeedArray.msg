@@ -1,6 +1,6 @@
 # List of target speeds along a route.
 
-Header header        # only stamp used
+std_msgs/Header header        # only stamp used
 
 RouteSpeed[] speeds
 # List of speeds along a route. The interpretation of the list is

@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.10)
 project(marti_nav_msgs)
 
+set(CMAKE_CXX_STANDARD 14)
+
 set(MSG_DEPS
+  builtin_interfaces
   geographic_msgs
   geometry_msgs
   marti_common_msgs
@@ -9,50 +12,49 @@ set(MSG_DEPS
   std_msgs
 )
 
-set(BUILD_DEPS
-  ${MSG_DEPS}
-  message_generation
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(geographic_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(marti_common_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+
+set(MSG_FILES
+  msg/Command.msg
+  msg/GridMap.msg
+  msg/LeadVehicle.msg
+  msg/Obstacle.msg
+  msg/ObstacleArray.msg
+  msg/PathPlanning.msg
+  msg/Route.msg
+  msg/RouteArray.msg
+  msg/RouteOffset.msg
+  msg/RoutePoint.msg
+  msg/RoutePosition.msg
+  msg/RouteSpeed.msg
+  msg/RouteSpeedArray.msg
+  msg/TeleopState.msg
+  msg/TrackedObject.msg
+  msg/TrackedObjectArray.msg
+  msg/VehicleControl.msg
+  msg/Wgs84Sample.msg
+  srv/DeleteRoute.srv
+  srv/GetRoute.srv
+  srv/GetRouteList.srv
+  srv/PlanRoute.srv
+  srv/SaveRecordedRoute.srv
+  srv/SaveRoute.srv
+  srv/SetRoute.srv
+  srv/UpdateRouteMetadata.srv
 )
 
-set(RUNTIME_DEPS
-  ${MSG_DEPS}
-  message_runtime
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${MSG_FILES}
+  DEPENDENCIES ${MSG_DEPS}
 )
 
-find_package(catkin REQUIRED COMPONENTS ${BUILD_DEPS})
+ament_export_dependencies(rosidl_default_runtime)
+ament_package()
 
-add_message_files(FILES
-  Command.msg
-  GridMap.msg
-  LeadVehicle.msg
-  Obstacle.msg
-  ObstacleArray.msg
-  PathPlanning.msg
-  Route.msg
-  RouteArray.msg
-  RouteOffset.msg
-  RoutePoint.msg
-  RoutePosition.msg
-  RouteSpeed.msg
-  RouteSpeedArray.msg
-  TeleopState.msg
-  TrackedObject.msg
-  TrackedObjectArray.msg
-  VehicleControl.msg
-  Wgs84Sample.msg
-)
-
-add_service_files(FILES
-  DeleteRoute.srv
-  GetRoute.srv
-  GetRouteList.srv
-  PlanRoute.srv
-  SaveRecordedRoute.srv
-  SaveRoute.srv
-  SetRoute.srv
-  UpdateRouteMetadata.srv
-)
-
-generate_messages(DEPENDENCIES ${MSG_DEPS})
-
-catkin_package(CATKIN_DEPENDS ${RUNTIME_DEPS})

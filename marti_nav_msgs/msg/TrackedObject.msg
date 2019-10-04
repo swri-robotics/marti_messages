@@ -2,7 +2,7 @@ uint8 VEHICLE=0
 uint8 PEDESTRIAN=1
 uint8 UNKNOWN=255
 
-Header header  # Frame and timestamp
+std_msgs/Header header  # Frame and timestamp
 uint16 id      # Id
 
 geometry_msgs/PoseWithCovariance pose      # Pose in the header frame.
@@ -26,7 +26,7 @@ float32 classification_quality # Classification quality number [0,1]
 
 float32 existence_probability  # Existence probability [0,1]
 
-duration age_duration          # Age of the track since first detection.
-duration prediction_duration   # Age of the prediction since the active flag was last true.
+builtin_interfaces/Duration age_duration          # Age of the track since first detection.
+builtin_interfaces/Duration prediction_duration   # Age of the prediction since the active flag was last true.
 
 bool active                    # Active flag for if the objects is currently being detected.

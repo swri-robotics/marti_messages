@@ -2,7 +2,7 @@ uint8 ADD=0
 uint8 MODIFY=0
 uint8 DELETE=2
 
-Header              header
+std_msgs/Header              header
 
 string              ns           # Namespace to place this object in... used in
                                  # conjunction with id to create a unique name
@@ -11,7 +11,7 @@ string              ns           # Namespace to place this object in... used in
 int32               id
 int32               action       # 0 add/modify an object, 2 deletes an object
 
-duration            lifetime     # How long the object should last before being
+builtin_interfaces/Duration lifetime # How long the object should last before being
                                  # automatically deleted.  0 means forever
 
 sensor_msgs/Image   image
