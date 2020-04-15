@@ -10,6 +10,8 @@ Header  header           # The time and location of the measurement.
 int8 BACKWARD=-1
 int8 ZERO=0
 int8 FORWARD=1
+int8 UNKNOWN=127         # Indicates either unknown motion or motion that isn't clear if it is forwards
+                         # or backwards such as turning in place
 
 int8 direction           # The direction of motion. Positive is forward, negative is
                          # backward, and 0 is stopped.
