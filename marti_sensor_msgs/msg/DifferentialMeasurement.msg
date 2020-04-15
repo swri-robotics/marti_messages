@@ -1,7 +1,7 @@
 # A differential measurement between two places in the world
 #  Usually used with RTK-gps setups
 
-Header  header           # The time and location where this measurement is taken from
+std_msgs/Header  header           # The time and location where this measurement is taken from
 string  base_frame_id    # The location we are measuring relative to
 
 float64 baseline_length  # Distance in meters between the two locations
