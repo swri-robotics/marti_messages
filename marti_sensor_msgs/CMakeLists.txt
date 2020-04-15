@@ -7,10 +7,10 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(FILES
   Altitude.msg
+  DifferentialMeasurement.msg
   DioPortState.msg
   DioRealTimeData.msg
   Direction.msg
-  DifferentialMeasurement.msg
   Exposure.msg
   Gyro.msg
   Velocity.msg
