@@ -10,6 +10,7 @@ add_message_files(FILES
   DioPortState.msg
   DioRealTimeData.msg
   Direction.msg
+  DifferentialMeasurement.msg
   Exposure.msg
   Gyro.msg
   Velocity.msg
