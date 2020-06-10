@@ -1,17 +1,18 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package marti_can_msgs
+Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Forthcoming
 -----------
+* Merge pull request `#106 <https://github.com/swri-robotics/marti_messages/issues/106>`_ from matt-attack/add-dbw-msgs
+* Add marti_dbw_msgs package
+* Contributors: Matthew Bries, P. J. Reed
 
 0.8.0 (2018-10-19)
 ------------------
 
 0.7.0 (2018-10-09)
 ------------------
-* Update Maintainers
-* Contributors: P. J. Reed
 
 0.6.0 (2018-05-24)
 ------------------
@@ -57,5 +58,3 @@ Forthcoming
 
 0.0.1 (2015-09-22)
 ------------------
-* Initial Release
-* Contributors: Marc Alban, P. J. Reed

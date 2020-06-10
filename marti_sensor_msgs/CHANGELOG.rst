@@ -2,6 +2,16 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#101 <https://github.com/swri-robotics/marti_messages/issues/101>`_ from matt-attack/add-unknown-direction
+* Merge pull request `#98 <https://github.com/swri-robotics/marti_messages/issues/98>`_ from matt-attack/add-differential-heading
+* Merge branch 'add-differential-heading' of https://github.com/matt-attack/marti_messages into add-differential-heading
+* Fix out of bounds enum
+* Add unknown direction enum
+* Add differentialmeasurement message for DGPS/RTK
+* Contributors: Matthew, Matthew Bries, P. J. Reed
+
 0.8.0 (2018-10-19)
 ------------------
 
