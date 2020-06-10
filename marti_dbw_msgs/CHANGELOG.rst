@@ -2,8 +2,8 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.0 (2020-06-10)
+------------------
 * Merge pull request `#106 <https://github.com/swri-robotics/marti_messages/issues/106>`_ from matt-attack/add-dbw-msgs
 * Add marti_dbw_msgs package
 * Contributors: Matthew Bries, P. J. Reed

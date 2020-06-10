@@ -2,8 +2,8 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.0 (2020-06-10)
+------------------
 * Merge pull request `#101 <https://github.com/swri-robotics/marti_messages/issues/101>`_ from matt-attack/add-unknown-direction
 * Merge pull request `#98 <https://github.com/swri-robotics/marti_messages/issues/98>`_ from matt-attack/add-differential-heading
 * Merge branch 'add-differential-heading' of https://github.com/matt-attack/marti_messages into add-differential-heading
