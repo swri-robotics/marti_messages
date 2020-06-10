@@ -2,8 +2,8 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2020-06-10)
+------------------
 * Merge pull request `#102 <https://github.com/swri-robotics/marti_messages/issues/102>`_ from matt-attack/dashing-diff
 * Merge pull request `#103 <https://github.com/swri-robotics/marti_messages/issues/103>`_ from matt-attack/dashing-dir
 * Fix out of bounds enum

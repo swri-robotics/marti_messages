@@ -2,8 +2,8 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2020-06-10)
+------------------
 * Add marti dbw msgs (ROS2) (`#107 <https://github.com/swri-robotics/marti_messages/issues/107>`_)
 * Contributors: P. J. Reed, Matthew Bries
 
