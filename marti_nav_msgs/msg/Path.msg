@@ -1,0 +1,3 @@
+Header                         header
+PathPoint[]                    points
+bool in_reverse
