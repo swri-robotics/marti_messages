@@ -2,6 +2,13 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add path message (`#109 <https://github.com/swri-robotics/marti_messages/issues/109>`_)
+* Add explicit dependencies on std_msgs (`#110 <https://github.com/swri-robotics/marti_messages/issues/110>`_)
+* Update minimum cmake version (`#108 <https://github.com/swri-robotics/marti_messages/issues/108>`_)
+* Contributors: Matthew Bries, P. J. Reed
+
 0.9.0 (2020-06-10)
 ------------------
 

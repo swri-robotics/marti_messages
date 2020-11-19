@@ -2,6 +2,12 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add explicit dependencies on std_msgs (`#110 <https://github.com/swri-robotics/marti_messages/issues/110>`_)
+* Update minimum cmake version (`#108 <https://github.com/swri-robotics/marti_messages/issues/108>`_)
+* Contributors: P. J. Reed
+
 0.9.0 (2020-06-10)
 ------------------
 
