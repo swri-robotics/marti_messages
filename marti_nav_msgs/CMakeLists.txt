@@ -28,6 +28,8 @@ set(MSG_FILES
   msg/Obstacle.msg
   msg/ObstacleArray.msg
   msg/PathPlanning.msg
+  msg/Path.msg
+  msg/PathPoint.msg
   msg/Route.msg
   msg/RouteArray.msg
   msg/RouteOffset.msg
