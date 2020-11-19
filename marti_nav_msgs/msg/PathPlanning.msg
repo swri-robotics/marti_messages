@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 int32   segment_type    # Type of path segment
 float32 length          # Length of path segment

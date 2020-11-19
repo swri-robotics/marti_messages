@@ -3,7 +3,7 @@
 # (e.g. antenna) location in a vehicle's relative odometry coordinate
 # frame.
 
-Header header
+std_msgs/Header header
 # The header contains the /tf name of the relative odometry frame and
 # the timestamp of the measurement.
 

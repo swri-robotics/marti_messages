@@ -2,7 +2,7 @@ uint8 ADD=0
 uint8 MODIFY=0
 uint8 DELETE=2
 
-Header              header
+std_msgs/Header     header
 
 string              ns           # Namespace to place this object in... used in
                                  # conjunction with id to create a unique name

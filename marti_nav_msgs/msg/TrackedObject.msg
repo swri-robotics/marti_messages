@@ -2,7 +2,7 @@ uint8 VEHICLE=0
 uint8 PEDESTRIAN=1
 uint8 UNKNOWN=255
 
-Header header  # Frame and timestamp
+std_msgs/Header header  # Frame and timestamp
 uint16 id      # Id
 
 geometry_msgs/PoseWithCovariance pose      # Pose in the header frame.

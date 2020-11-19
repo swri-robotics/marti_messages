@@ -1,6 +1,6 @@
 # Message for containing digital data obtained by a real-time DAQ.
 
-Header header
+std_msgs/Header header
 # header contains the timestamp of when this data was obtained from
 # the device.
 
