@@ -2,8 +2,8 @@
 Changelog for package marti_status_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.0 (2020-11-19)
+-------------------
 * Add explicit dependencies on std_msgs (`#110 <https://github.com/swri-robotics/marti_messages/issues/110>`_)
 * Update minimum cmake version (`#108 <https://github.com/swri-robotics/marti_messages/issues/108>`_)
 * Contributors: P. J. Reed
