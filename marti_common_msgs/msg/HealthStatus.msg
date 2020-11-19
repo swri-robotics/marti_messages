@@ -6,7 +6,7 @@ int8 WARN=1  # Component is operating but the data may be inaccurate or there ma
 int8 ERROR=2 # Component has encountered a serious problem and cannot or will not operate
 int8 STALE=3 # Uninitialized or cannot determine status
 
-Header header
+std_msgs/Header header
 
 int8   status
 string message

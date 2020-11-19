@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 bool present
 # Boolean flag indicating that DBW system is present and communicating

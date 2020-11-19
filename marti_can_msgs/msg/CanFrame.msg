@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 # Header timestamp is the time when all messages were acquired
 # and synchronized.
 
