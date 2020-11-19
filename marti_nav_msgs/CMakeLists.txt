@@ -28,6 +28,8 @@ add_message_files(FILES
   Obstacle.msg
   ObstacleArray.msg
   PathPlanning.msg
+  Path.msg
+  PathPoint.msg
   Route.msg
   RouteArray.msg
   RouteOffset.msg
