@@ -3,6 +3,9 @@
 # The fully qualified node name
 string name
 
+# The location the node handle is constructed
+string location
+
 # The name of the nodelet manager this is running in, if any
 string nodelet_manager
 
