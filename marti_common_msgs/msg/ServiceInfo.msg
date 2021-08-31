@@ -1,9 +1,16 @@
 # This message contains documentation data about a service client/server in a node
 
+# The internal name of the service
 string name
+
+# The external, global name of the service
 string resolved_name
 
+# A human readable description of the service and how to use it
 string description
+
+# Used to group related components
+string group
 
 # The name of the message type
 string message_type

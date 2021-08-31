@@ -18,5 +18,5 @@ TopicInfo[] topics
 # A list of each parameter used in the node
 ParamInfo[] parameters
 
-# TODO services
+# A list of each service used in the node
 ServiceInfo[] services
