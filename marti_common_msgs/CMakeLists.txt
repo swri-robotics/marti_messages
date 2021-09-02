@@ -27,11 +27,6 @@ add_message_files(FILES
   UInt32Stamped.msg
   UInt64Stamped.msg
   UInt8Stamped.msg
-
-  NodeInfo.msg
-  ParamInfo.msg
-  TopicInfo.msg
-  ServiceInfo.msg
 )
 
 generate_messages(DEPENDENCIES
