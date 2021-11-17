@@ -7,3 +7,4 @@ msg_gen
 srv_gen
 src
 version.txt
+**/*.swp
