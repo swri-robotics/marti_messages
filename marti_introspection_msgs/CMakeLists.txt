@@ -5,11 +5,13 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs)
 
-add_message_files(FILES
-  NodeInfo.msg
-  ParamInfo.msg
-  TopicInfo.msg
-  ServiceInfo.msg
+add_message_files(
+  DIRECTORY msg 
+  FILES
+    NodeInfo.msg
+    ParamInfo.msg
+    TopicInfo.msg
+    ServiceInfo.msg
 )
 
 generate_messages(DEPENDENCIES
