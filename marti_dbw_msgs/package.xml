@@ -1,13 +1,14 @@
 <?xml version="1.0" ?>
 <package format="2">
   <name>marti_dbw_msgs</name>
-  <version>0.10.0</version>
+  <version>0.11.0</version>
   <description>
 
      marti_dbw_msgs
 
   </description>
-  <maintainer email="mbries@swri.org">Matthew Bries</maintainer>
+  <author>Matthew Bries</author>
+  <maintainer email="danthony@swri.org">David Anthony</maintainer>
   <url type="repository">https://github.com/swri-robotics/marti_messages</url>
 
   <license>BSD</license>
