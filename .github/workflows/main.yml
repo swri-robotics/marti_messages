@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        ros_distro: [melodic, noetic]
+        ros_distro: [kinetic, melodic, noetic]
         ros_repo: [main, testing]
 
     steps:
