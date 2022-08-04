@@ -1,9 +1,9 @@
-marti\_messages ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg) ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg?branch=dashing-devel)
+marti\_messages ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg) ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg?branch=ros2-devel)
 =============================================================================================
 
 This repository provides various messages created at [Southwest Reseach Institute](http://www.swri.org)'s [Intelligent Vehicle Systems](http://www.swri.org/4org/d10/isd/ivs/default.htm) section for working with [Robot Operating System(ROS)](http://www.ros.org).
 
-The `master` branch provides support for ROS Kinetic and Melodic; the `dashing-devel` branch provides support for ROS Dashing and Eloquent.
+The `master` branch provides support for ROS 1 distributions; the `ros2-devel` branch provides support for ROS 2 distributions.
 
 Installation
 ------------
@@ -13,7 +13,7 @@ If you have installed ROS, you can install any of the packages in this repositor
     sudo apt-get install ros-${ROS_DISTRO}-<package>
 
 
-Building From Source (ROS Kinetic, Melodic)
+Building From Source (ROS 1)
 -------------------------------------------------------
 
 These directions assume you have already set up a catkin workspace. See [this tutorial](http://wiki.ros.org/catkin/Tutorials/create_a_workspace) on the ROS Wiki for help setting up a catkin workspace.
