@@ -1,24 +1,24 @@
-cmake_minimum_required(VERSION 3.10.0)
+cmake_minimum_required(VERSION 3.0.2)
 project(marti_introspection_msgs)
 
-set(CMAKE_CXX_STANDARD 14)
+find_package(catkin REQUIRED COMPONENTS
+  message_generation
+  std_msgs)
 
-find_package(ament_cmake REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
-find_package(builtin_interfaces REQUIRED)
-
-set(MSG_FILES
-  msg/NodeInfo.msg
-  msg/ParamInfo.msg
-  msg/TopicInfo.msg
-  msg/ServiceInfo.msg
+add_message_files(
+  DIRECTORY msg 
+  FILES
+    NodeInfo.msg
+    ParamInfo.msg
+    TopicInfo.msg
+    ServiceInfo.msg
 )
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  ${MSG_FILES}
-  DEPENDENCIES ${MSG_DEPS}
+generate_messages(DEPENDENCIES
+  std_msgs)
+
+catkin_package(
+  CATKIN_DEPENDS
+    message_runtime
+    std_msgs
 )
-
-ament_export_dependencies(rosidl_default_runtime)
-ament_package()
-

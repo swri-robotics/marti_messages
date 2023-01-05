@@ -7,7 +7,8 @@
      marti_dbw_msgs
 
   </description>
-  <maintainer email="mbries@swri.org">Matthew Bries</maintainer>
+  <author>Matthew Bries</author>
+  <maintainer email="swri-robotics@swri.org">Southwest Research Institute</maintainer>
   <url type="repository">https://github.com/swri-robotics/marti_messages</url>
 
   <license>BSD</license>
