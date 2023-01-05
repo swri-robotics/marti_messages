@@ -2,8 +2,8 @@
 Changelog for package marti_introspection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.0 (2023-01-05)
+------------------
 * Add Introspection Messages (`#123 <https://github.com/swri-robotics/marti_messages/issues/123>`_)
   * Updating authors' and maintainers' information
   * Adding introspection messages
