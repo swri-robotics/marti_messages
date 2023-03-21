@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(marti_dbw_msgs)
 
-# Default to C++14
+# Default to C++ version appropriate for the ROS distribution
 if(NOT CMAKE_CXX_STANDARD)
   if ("$ENV{ROS_DISTRO}" STRGREATER "foxy")
     set(CMAKE_CXX_STANDARD 17)
