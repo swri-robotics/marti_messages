@@ -2,6 +2,9 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.2.0 (2020-11-19)
 ------------------
 
