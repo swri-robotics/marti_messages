@@ -2,8 +2,8 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.1 (2023-05-03)
+------------------
 * Adding missing include for std::string constants (`#126 <https://github.com/swri-robotics/marti_messages/issues/126>`_)
 * Contributors: David Anthony
 
