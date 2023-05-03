@@ -1,6 +1,8 @@
 #ifndef MARTI_DBW_MSGS_DBW_CONSTANTS_H_
 #define MARTI_DBW_MSGS_DBW_CONSTANTS_H_
 
+#include <string>
+
 namespace marti_dbw_msgs
 {
 // This file includes constants used in the marti_dbw_msgs ROS
