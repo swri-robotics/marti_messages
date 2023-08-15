@@ -2,6 +2,11 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updating maintainer list (`#128 <https://github.com/swri-robotics/marti_messages/issues/128>`_)
+* Contributors: David Anthony
+
 0.10.0 (2020-11-19)
 -------------------
 * Add explicit dependencies on std_msgs (`#110 <https://github.com/swri-robotics/marti_messages/issues/110>`_)

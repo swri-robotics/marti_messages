@@ -4,6 +4,10 @@ Changelog for package marti_introspection_msgs
 
 Forthcoming
 -----------
+* Adding introspection changelog
+* Updating maintainer list (`#128 <https://github.com/swri-robotics/marti_messages/issues/128>`_)
+* Contributors: David Anthony
+
 * Updating maintainer list (`#128 <https://github.com/swri-robotics/marti_messages/issues/128>`_)
 * Contributors: David Anthony
 

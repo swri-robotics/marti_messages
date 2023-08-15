@@ -2,6 +2,12 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updating maintainer list (`#128 <https://github.com/swri-robotics/marti_messages/issues/128>`_)
+* add cost to PlanRoute srv (`#127 <https://github.com/swri-robotics/marti_messages/issues/127>`_)
+* Contributors: Collin Thornton, David Anthony
+
 0.10.0 (2020-11-19)
 -------------------
 * Add path message (`#109 <https://github.com/swri-robotics/marti_messages/issues/109>`_)
