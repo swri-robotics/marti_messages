@@ -2,8 +2,8 @@
 Changelog for package marti_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.0 (2023-08-15)
+-------------------
 * Updating maintainer list (`#128 <https://github.com/swri-robotics/marti_messages/issues/128>`_)
 * Contributors: David Anthony
 
