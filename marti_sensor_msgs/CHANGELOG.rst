@@ -2,6 +2,12 @@
 Changelog for package marti_sensor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fixed number of dashes in SetExposure Service call (`#130 <https://github.com/swri-robotics/marti_messages/issues/130>`_)
+  Co-authored-by: Tyler Marr <tyler.marr@swri.org>
+* Contributors: Tyler Marr
+
 0.12.0 (2023-08-15)
 -------------------
 * Updating maintainer list (`#128 <https://github.com/swri-robotics/marti_messages/issues/128>`_)
