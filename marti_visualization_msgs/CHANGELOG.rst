@@ -2,6 +2,9 @@
 Changelog for package marti_visualization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.4.1 (2023-05-03)
 ------------------
 

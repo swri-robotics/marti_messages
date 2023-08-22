@@ -2,6 +2,11 @@
 Changelog for package marti_nav_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adding cost to route message (`#129 <https://github.com/swri-robotics/marti_messages/issues/129>`_)
+* Contributors: David Anthony
+
 1.4.1 (2023-05-03)
 ------------------
 
