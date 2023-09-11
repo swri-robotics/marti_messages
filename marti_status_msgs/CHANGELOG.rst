@@ -2,6 +2,9 @@
 Changelog for package marti_status_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.5.0 (2023-08-22)
 ------------------
 
