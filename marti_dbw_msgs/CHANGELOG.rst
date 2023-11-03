@@ -2,6 +2,11 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adding reverse low DBW constant (`#132 <https://github.com/swri-robotics/marti_messages/issues/132>`_)
+* Contributors: David Anthony
+
 1.5.1 (2023-09-11)
 ------------------
 
