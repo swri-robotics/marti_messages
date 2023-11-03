@@ -26,6 +26,7 @@ const std::string TRANS_REVERSE = "reverse";
 const std::string TRANS_DRIVE_LOW = "drive_low";
 const std::string TRANS_DRIVE_HIGH = "drive_high";
 const std::string TRANS_PIVOT = "pivot";
+const std::string TRANS_REVERSE_LOW = "reverse_low";
 
 
 
