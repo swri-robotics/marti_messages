@@ -1,9 +1,9 @@
 marti\_messages ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg) ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg?branch=dashing-devel)
 =============================================================================================
 
-This repository provides various messages created at [Southwest Reseach Institute](http://www.swri.org)'s [Intelligent Vehicle Systems](http://www.swri.org/4org/d10/isd/ivs/default.htm) section for working with [Robot Operating System(ROS)](http://www.ros.org).
+This repository provides various messages created at [Southwest Reseach Institute](http://www.swri.org)'s [Intelligent Systems](https://www.swri.org/technical-divisions/intelligent-systems) section for working with [Robot Operating System(ROS)](http://www.ros.org).
 
-The `master` branch provides support for ROS Kinetic and Melodic; the `dashing-devel` branch provides support for ROS Dashing and Eloquent.
+The `master` branch provides support for ROS Noetic; the `ros2-devel` branch provides support for current ROS 2 distributions.
 
 Installation
 ------------
