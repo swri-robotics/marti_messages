@@ -2,8 +2,8 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.2 (2023-11-03)
+-------------------
 * Added constant for reverse_low gear string (`#131 <https://github.com/swri-robotics/marti_messages/issues/131>`_)
 * Contributors: Robert Brothers
 
