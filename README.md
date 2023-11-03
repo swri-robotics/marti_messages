@@ -1,7 +1,7 @@
 marti\_messages ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg) ![CI](https://github.com/swri-robotics/marti_messages/workflows/CI/badge.svg?branch=dashing-devel)
 =============================================================================================
 
-This repository provides various messages created at [Southwest Reseach Institute](http://www.swri.org)'s [Intelligent Systems](https://www.swri.org/technical-divisions/intelligent-systems) section for working with [Robot Operating System(ROS)](http://www.ros.org).
+This repository provides various messages created at [Southwest Reseach Institute](http://www.swri.org)'s [Intelligent Systems](https://www.swri.org/technical-divisions/intelligent-systems)'s division for working with [Robot Operating System(ROS)](http://www.ros.org).
 
 The `master` branch provides support for ROS Noetic; the `ros2-devel` branch provides support for current ROS 2 distributions.
 
