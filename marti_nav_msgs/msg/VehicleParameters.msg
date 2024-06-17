@@ -26,3 +26,6 @@ float32 target_deceleration
 
 # Vehicle's linear acceleration in m/s^2 when stopping at the end of a path segment
 float32 stop_deceleration
+
+# Vehicle's time constant in delay of following target speed commands
+float32 time_constant
