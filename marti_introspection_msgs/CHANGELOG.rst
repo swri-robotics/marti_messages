@@ -2,6 +2,11 @@
 Changelog for package marti_introspection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updating CI for Rolling and Jazzy. No functional changes.
+* Contributors: David Anthony
+
 1.5.2 (2023-11-03)
 ------------------
 

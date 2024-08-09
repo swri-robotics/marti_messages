@@ -2,6 +2,11 @@
 Changelog for package marti_dbw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updating CI for Rolling and Jazzy. No functional changes.
+* Contributors: David Anthony
+
 1.5.2 (2023-11-03)
 ------------------
 * Adding reverse low DBW constant (`#132 <https://github.com/swri-robotics/marti_messages/issues/132>`_)
