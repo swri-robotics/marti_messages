@@ -1,14 +1,14 @@
-name: Kilted
+name: Jazzy (testing)
 
 on: [push, pull_request]
 
 jobs:
   industrial_ci:
     strategy:
+      fail-fast: false
       matrix:
         env:
-          - {ROS_DISTRO: kilted, ROS_REPO: testing, PIP_BREAK_SYSTEM_PACKAGES: True}
-          - {ROS_DISTRO: kilted, ROS_REPO: main, PIP_BREAK_SYSTEM_PACKAGES: True}
+          - {ROS_DISTRO: jazzy, ROS_REPO: testing, PIP_BREAK_SYSTEM_PACKAGES: True}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

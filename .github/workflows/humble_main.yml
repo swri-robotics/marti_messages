@@ -1,14 +1,14 @@
-name: Lyrical
+name: Humble (main)
 
 on: [push, pull_request]
 
 jobs:
   industrial_ci:
     strategy:
+      fail-fast: false
       matrix:
         env:
-          - {ROS_DISTRO: lyrical, ROS_REPO: testing, PIP_BREAK_SYSTEM_PACKAGES: True}
-          - {ROS_DISTRO: lyrical, ROS_REPO: main, PIP_BREAK_SYSTEM_PACKAGES: True}
+          - {ROS_DISTRO: humble, ROS_REPO: main}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
